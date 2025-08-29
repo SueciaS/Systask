@@ -1,6 +1,6 @@
 <?php
 
-include("../../../connection/com.php");
+include("../../connection/com.php");
 
 if (empty($_REQUEST['NAME']) || empty($_REQUEST['EMAIL']) || empty($_REQUEST['PASSWORD']) || empty($_REQUEST['LEVEL'])) {
 
